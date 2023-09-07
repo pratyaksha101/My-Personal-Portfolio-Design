@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratyaksha-Developer-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;600&family=Dancing+Script:wght@600&family=Poppins:wght@400;600;700&family=Roboto+Slab:wght@300&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(98, 98, 250);
+            ;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0px 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: lavender;
+            font-size: 1.5rem;
+        }
+
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .first-section {
+            display: flex;
+            justify-content: space-around;
+            margin: 140px 0;
+            align-items: center;
+
+        }
+
+        .first-section>div {
+            width: 30%;
+        }
+
+        .left-section {
+            /* background-color: red; */
+            font-size: 3rem;
+            /* margin: 70px 0; */
+
+        }
+
+        .left-section .btn {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .left-section .buttons {
+            padding: 0 50px;
+
+
+        }
+
+        .right-section {
+            /* background-color: red; */
+        }
+
+        .right-section img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        #element {
+            color: lavender;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(132, 132, 227);
+            height: 1.2px;
+            margin: 48px 84px;
+
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .text-grey {
+            color: grey;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 76vw;
+            margin: 56px 0;
+            height: 2px;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            color: grey;
+            top: 86px;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+            /* height: 233px; */
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: grey;
+            padding: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Pratyaskha's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li> <a href="">About</a></li>
+                    <li> <a href="">Services</a></li>
+                    <li> <a href="">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first-section">
+            <div class="left-section">
+                Hi, My Name is <span class="purple">Pratyaksha </span>
+                <div>I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Git-Hub</button>
+                </div>
+
+            </div>
+            <div class="right-section">
+                <img src="dev.png" alt="" srcset="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="tex-gray">What I have done so far</span>
+            <h1>Work Experiance</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="dev.png" alt="">
+                    <div class="vertical-title">
+                        Html Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quod consequatur vero nostru
+                        m officia mollitia vel, praesentium possimus eos
+                        impedit sint libero maxime!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="html.png" alt="">
+                    <div class="vertical-title">
+                        Html Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quod consequatur vero nostru
+                        m officia mollitia vel, praesentium possimus eos
+                        impedit sint libero maxime!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="insta.png" alt="">
+                    <div class="vertical-title">
+                        Html Developer
+                        <div>(2010-2012)</div>
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quod consequatur vero nostru
+                        m officia mollitia vel, praesentium possimus eos
+                        impedit sint libero maxime!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="youtube.png" alt="">
+                    <div class="vertical-title">
+                        Html Developer
+                        <div>(2010-2012)</div>
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quod consequatur vero nostru
+                        m officia mollitia vel, praesentium possimus eos
+                        impedit sint libero maxime!
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="twitter.png" alt="">
+                    <div class="vertical-title">
+                        Html Developer
+                        <div>(2010-2012)</div>
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quod consequatur vero nostru
+                        m officia mollitia vel, praesentium possimus eos
+                        impedit sint libero maxime!
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="dev.png" alt="">
+                    <div class="vertical-title">
+                        Html Developer
+                        <div>(2010-2012)</div>
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quod consequatur vero nostru
+                        m officia mollitia vel, praesentium possimus eos
+                        impedit sint libero maxime!
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                Pratyaksha-Developer-Portfolio
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.PratyaskhasPoertfolio.com|All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Problem Solver', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
